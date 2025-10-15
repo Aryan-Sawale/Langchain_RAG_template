@@ -28,5 +28,5 @@ OPENAI_API_KEY=[Your Key]
 
 ## Running the application
 ```bash
-streamlit run .\frontend.py
+streamlit run frontend.py
 ```
