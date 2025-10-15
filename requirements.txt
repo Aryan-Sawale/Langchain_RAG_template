@@ -1,0 +1,9 @@
+ipykernel
+python-dotenv
+langchain-openai
+langchain-community
+langchain-chroma
+docx2txt
+pypdf
+streamlit
+tiktoken
