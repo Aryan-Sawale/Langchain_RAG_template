@@ -1,5 +1,7 @@
 Press CTRL + SHIFT + V if viewing this file in vscode
 
+## Setting up environment and installing dependancies
+
 ```bash
 python -m venv env
 ```
