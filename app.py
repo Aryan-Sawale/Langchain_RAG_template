@@ -8,6 +8,10 @@ from langchain.schema import Document
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 
+# uncomment if facing SSL errors
+# tiktoken_cache_dir = "tiktoken_cache"
+# os.environ["TIKTOKEN_CACHE_DIR"] = tiktoken_cache_dir
+
 load_dotenv()
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
